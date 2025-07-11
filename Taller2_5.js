@@ -21,5 +21,5 @@ function filtarUsuarios(usuarios, edadMinima) {
   ];
   let edadMinima = parseInt(prompt("Ingrese la edad minima: ")); //* Convierte el string a entero
   let usuariosFiltrados = filtarUsuarios(usuarios, edadMinima); //* Llama a la funcion filtarUsuarios
-  console.log("Usuarios filtrados: " + JSON.stringify(usuariosFiltrados)); //* Imprime el array de usuarios filtrados en formato JSON
+  console.log("Usuarios filtrados: " + usuariosFiltrados); //* Imprime el array de usuarios filtrados
 

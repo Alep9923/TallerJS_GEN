@@ -12,7 +12,7 @@ function calcularPromedio(notas) {
   return promedio.toFixed(2); //* Redondea el promedio a 2 decimales
 }
 
-let notas = prompt("Ingrese sus notas separadas por comas: ").split(",");
-let promedio = calcularPromedio(notas);
+let notas = prompt("Ingrese sus notas separadas por comas: ").split(","); //* Separa las notas ingresadas por el usuario
+let promedio = calcularPromedio(notas); //* Calcula el promedio de las notas
 
-console.log("Promedio de notas: " + promedio);
+console.log("Promedio de notas: " + promedio); //* Imprime el promedio de las notas
