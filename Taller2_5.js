@@ -1,3 +1,5 @@
+const prompt = require('prompt-sync')();
+
 //& Ejercicio 5: Filtrar usuarios por edad
 //* Dado un array de usuarios compuestos por nombre, edad y email, crear una función filtarUsuarios(usuarios,edadMinima) que retorne los usuarios que cumplan con la edad minima, la edad minima será dada por el usuario, es decir, si el usuario escribe 18 debería decirle que personas de la lista cumplen con tener más de 18
 

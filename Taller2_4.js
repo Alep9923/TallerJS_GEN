@@ -1,3 +1,5 @@
+const prompt = require('prompt-sync')();
+
 //& Ejericio 4: Calcular Promedio de Notas
 //* Crear una función calcularPromedio(notas) que reciba un array de notas dado por el usuario separado por comas (,). La función debe retornar el promedio de las notas redondeado a 2 decimales.
 

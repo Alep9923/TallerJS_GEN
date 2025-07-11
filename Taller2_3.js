@@ -1,3 +1,5 @@
+const prompt = require('prompt-sync')();
+
 //& Ejercicio 3: Buscar producto en inventario
 //* Crear una función buscarProducto(nombre, inventario) que retorne el producto existente, o null si no existe. El inbentario debería predefinido.
 

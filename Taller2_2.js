@@ -1,3 +1,5 @@
+const prompt = require('prompt-sync')();
+
 //& Ejercicio 2: Validar Contrasña
 //* Desarrollar un formulario de registro de usuario, en el cual se debe ingresar el nombre, apellido, email, contraseña y confirmar contraseña. Crea una función validarPassword(password, confirmPassword) que reciba la contraseña y valide si cumple con tener al menos 8 caractersiticas, un número y una mayuscula
 
